@@ -1,4 +1,4 @@
-# ToDoList_Android. - TASK
+# ToDoList_Android. - TASKO
 
 Simple android todo app made with Kotlin.
 
