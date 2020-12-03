@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/actionsButtonsTodoList"
+        android:visible="true">
+        <item
+            android:id="@+id/deleteAllTodos"
+            android:icon="@drawable/ic_delete_forever_white_32dp"
+            android:title="Delete List"
+            app:showAsAction="ifRoom|withText"></item>
+    </group>
+</menu>

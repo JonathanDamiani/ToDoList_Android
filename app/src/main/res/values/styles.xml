@@ -1,0 +1,103 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/darkGray</item>
+    </style>
+
+    <!--  Input Style  -->
+    <style name="myInputStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@drawable/background_input</item>
+        <item name="android:drawableStart">@drawable/ic_add_white_24dp</item>
+        <item name="android:ems">10</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/midGray</item>
+        <item name="android:textCursorDrawable">@color/white</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!--  Button Style  -->
+    <style name="myButtonStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:background">@drawable/background_input</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+    </style>
+
+    <!--  Floating button Style  -->
+    <style name="myFloatingButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <!--  Toolbar Style  -->
+    <style name="myToolbarStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/black</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:theme">?attr/actionBarTheme</item>
+    </style>
+
+    <!--  Text in the center for toolbar Style  -->
+    <style name="myCenterText" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--  Basic text style  -->
+    <style name="myTextStyle">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Search input style -->
+    <style name="searchInput" parent="myInputStyle">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:drawableStart">@drawable/background_input</item>
+        <item name="android:drawableEnd">@drawable/ic_search_white_24dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- Card style -->
+    <style name="myCardStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:background">@drawable/background_element</item>
+    </style>
+
+    <style name="myGhostButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundTint">#00FDFDFD</item>
+        <item name="android:textColorHighlight">@color/black</item>
+        <item name="android:textColorLink">@color/white</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

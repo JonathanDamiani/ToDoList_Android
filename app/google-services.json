@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "567514412864",
+    "firebase_url": "https://todoapp-ffd07.firebaseio.com",
+    "project_id": "todoapp-ffd07",
+    "storage_bucket": "todoapp-ffd07.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:567514412864:android:a69ebf441818f47b8b6ca5",
+        "android_client_info": {
+          "package_name": "com.deanvelopment.tasko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "567514412864-il369p53b2r8amng6k9nfakpqe8a0m9b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLnG1abT1TOcMbnFIJomLHYQUNOaWcYds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "567514412864-il369p53b2r8amng6k9nfakpqe8a0m9b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

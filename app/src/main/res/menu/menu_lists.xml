@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group
+        android:id="@+id/actionsButtonsList"
+        android:visible="true">
+        <item
+            android:id="@+id/listShare"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="Share List"
+            app:showAsAction="always"></item>
+        <item
+            android:id="@+id/listEdit"
+            android:icon="@drawable/ic_edit_white_24dp"
+            android:title="Edit List"
+            app:showAsAction="ifRoom|withText"></item>
+        <item
+            android:id="@+id/listDelete"
+            android:icon="@drawable/ic_delete_forever_white_32dp"
+            android:title="Delete List"
+            app:showAsAction="ifRoom|withText"></item>
+    </group>
+</menu>
